@@ -11,12 +11,15 @@
             {{ tag }}
           </span>
         </div>
+        <DataSource v-if="item.lastUpdated" :lastUpdated="item.lastUpdated" :source="item.source" />
       </div>
     </div>
   </div>
 </template>
 
 <script setup>
+import DataSource from './DataSource.vue'
+
 defineProps({
   items: {
     type: Array,

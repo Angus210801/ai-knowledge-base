@@ -1,0 +1,1001 @@
+[
+  {
+    "id": "a2a",
+    "term": "A2A",
+    "termZh": "Agent-to-Agent",
+    "definition": "Google提出的Agent间通信协议，让不同Agent可以协作完成任务",
+    "relatedPage": null,
+    "letter": "A",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "agent",
+    "term": "Agent",
+    "termZh": "智能体",
+    "definition": "能够自主感知环境、制定计划、执行行动来完成目标的AI系统",
+    "relatedPage": "/concepts/agent",
+    "letter": "A",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "agentic-ai",
+    "term": "Agentic AI",
+    "termZh": "智能体AI",
+    "definition": "能够自主感知、决策、行动的AI系统范式，是AI发展的新阶段",
+    "relatedPage": null,
+    "letter": "A",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "agi",
+    "term": "AGI",
+    "termZh": "通用人工智能",
+    "definition": "具有人类水平智能的AI系统，能够执行任何人类可以完成的智力任务",
+    "relatedPage": null,
+    "letter": "A",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "aime",
+    "term": "AIME",
+    "termZh": "美国数学邀请赛",
+    "definition": "美国数学邀请赛，用于评估AI数学推理能力",
+    "relatedPage": null,
+    "letter": "Other",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "alignment",
+    "term": "Alignment",
+    "termZh": "对齐",
+    "definition": "确保AI系统的目标和行为与人类价值观和意图一致的研究领域",
+    "relatedPage": null,
+    "letter": "A",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "arc-agi",
+    "term": "ARC-AGI",
+    "termZh": "抽象推理基准",
+    "definition": "抽象推理基准，用于评估AI通用智能水平",
+    "relatedPage": null,
+    "letter": "Other",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "asi",
+    "term": "ASI",
+    "termZh": "超级人工智能",
+    "definition": "超越人类智能的AI系统",
+    "relatedPage": null,
+    "letter": "A",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "autoregressive",
+    "term": "Autoregressive",
+    "termZh": "自回归",
+    "definition": "逐个token生成文本的方式，每次根据前面的token预测下一个token",
+    "relatedPage": null,
+    "letter": "A",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "benchmark",
+    "term": "Benchmark",
+    "termZh": "基准测试",
+    "definition": "评估AI模型性能的标准化测试，如MMLU、HumanEval、MATH等",
+    "relatedPage": null,
+    "letter": "B",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "bf16",
+    "term": "BF16",
+    "termZh": "Brain Float 16",
+    "definition": "一种16位浮点数格式，兼顾精度和范围，广泛用于AI训练",
+    "relatedPage": null,
+    "letter": "B",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "chain-of-thought",
+    "term": "Chain-of-Thought (CoT)",
+    "termZh": "思维链",
+    "definition": "让AI展示推理过程的技术，通过逐步思考提高答案质量",
+    "relatedPage": null,
+    "letter": "C",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "chatbot",
+    "term": "ChatBot",
+    "termZh": "聊天机器人",
+    "definition": "基于AI的对话系统，如ChatGPT、Claude等",
+    "relatedPage": null,
+    "letter": "C",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "computer-use",
+    "term": "Computer Use",
+    "termZh": "电脑操作",
+    "definition": "Anthropic推出的AI操作电脑能力，包括移动鼠标、打字、截屏等",
+    "relatedPage": null,
+    "letter": "C",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "constitutional-ai",
+    "term": "Constitutional AI",
+    "termZh": "宪法AI",
+    "definition": "Anthropic提出的AI安全方法，用一组原则指导AI行为",
+    "relatedPage": null,
+    "letter": "C",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "context-window",
+    "term": "Context Window",
+    "termZh": "上下文窗口",
+    "definition": "模型一次能处理的最大token数量",
+    "relatedPage": null,
+    "letter": "C",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "cuda",
+    "term": "CUDA",
+    "termZh": "CUDA",
+    "definition": "NVIDIA的GPU编程平台，是AI计算的事实标准",
+    "relatedPage": null,
+    "letter": "C",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "deepseek",
+    "term": "DeepSeek",
+    "termZh": "DeepSeek",
+    "definition": "中国AI公司，以低成本训练出世界级模型，DeepSeek R1/R2是开源推理模型标杆",
+    "relatedPage": null,
+    "letter": "D",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "distillation",
+    "term": "Distillation",
+    "termZh": "蒸馏",
+    "definition": "用大模型（教师）训练小模型（学生）的技术",
+    "relatedPage": null,
+    "letter": "D",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "dpo",
+    "term": "DPO",
+    "termZh": "Direct Preference Optimization",
+    "definition": "直接偏好优化，简化版的RLHF方法",
+    "relatedPage": null,
+    "letter": "D",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "embedding",
+    "term": "Embedding",
+    "termZh": "嵌入/向量化",
+    "definition": "将文本、图像等转换为向量表示的技术",
+    "relatedPage": null,
+    "letter": "E",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "emergent-ability",
+    "term": "Emergent Ability",
+    "termZh": "涌现能力",
+    "definition": "模型规模增大后突然出现的能力",
+    "relatedPage": null,
+    "letter": "E",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "fine-tuning",
+    "term": "Fine-tuning",
+    "termZh": "微调",
+    "definition": "在预训练模型基础上用特定数据进一步训练",
+    "relatedPage": "/concepts/fine-tuning",
+    "letter": "F",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "flash-attention",
+    "term": "Flash Attention",
+    "termZh": "Flash Attention",
+    "definition": "高效注意力实现技术，减少内存访问和计算量",
+    "relatedPage": null,
+    "letter": "F",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "fp16-fp32",
+    "term": "FP16/FP32",
+    "termZh": "FP16/FP32",
+    "definition": "16位/32位浮点数精度",
+    "relatedPage": null,
+    "letter": "F",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "function-calling",
+    "term": "Function Calling",
+    "termZh": "函数调用",
+    "definition": "让AI调用外部函数/API的能力",
+    "relatedPage": "/concepts/function-calling",
+    "letter": "F",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "gpu",
+    "term": "GPU",
+    "termZh": "图形处理单元",
+    "definition": "图形处理单元，AI计算的核心硬件",
+    "relatedPage": null,
+    "letter": "G",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "gpt-5",
+    "term": "GPT-5",
+    "termZh": "GPT-5",
+    "definition": "OpenAI于2025年发布的统一推理与通用能力的旗舰模型",
+    "relatedPage": null,
+    "letter": "G",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "grok",
+    "term": "Grok",
+    "termZh": "Grok",
+    "definition": "xAI（Elon Musk）开发的AI模型，与X平台深度整合",
+    "relatedPage": null,
+    "letter": "G",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "gguf",
+    "term": "GGUF",
+    "termZh": "GGUF",
+    "definition": "llama.cpp使用的模型格式，支持多种量化级别",
+    "relatedPage": null,
+    "letter": "G",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "hallucination",
+    "term": "Hallucination",
+    "termZh": "幻觉",
+    "definition": "AI自信地生成虚假或不存在信息的现象",
+    "relatedPage": null,
+    "letter": "H",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "hbm",
+    "term": "HBM",
+    "termZh": "高带宽内存",
+    "definition": "高带宽内存，GPU使用的高速显存",
+    "relatedPage": null,
+    "letter": "H",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "hitl",
+    "term": "HITL",
+    "termZh": "人机协作",
+    "definition": "在AI流程中加入人工审核和干预的模式",
+    "relatedPage": null,
+    "letter": "H",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "hook",
+    "term": "Hook",
+    "termZh": "钩子",
+    "definition": "Agent执行过程中的生命周期回调函数，在特定时机触发",
+    "relatedPage": "/concepts/extended-concepts#hook",
+    "letter": "H",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "hugging-face",
+    "term": "Hugging Face",
+    "termZh": "Hugging Face",
+    "definition": "AI界的GitHub，开源模型和数据集的核心平台",
+    "relatedPage": null,
+    "letter": "H",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "hybrid-reasoning",
+    "term": "Hybrid Reasoning",
+    "termZh": "混合推理",
+    "definition": "模型同时支持快速回答和深度推理的能力，如Claude 3.7 Sonnet",
+    "relatedPage": null,
+    "letter": "H",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "inference",
+    "term": "Inference",
+    "termZh": "推理",
+    "definition": "使用训练好的模型进行预测或生成的过程",
+    "relatedPage": null,
+    "letter": "I",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "infiniband",
+    "term": "InfiniBand",
+    "termZh": "InfiniBand",
+    "definition": "高速网络技术，用于GPU集群互联",
+    "relatedPage": null,
+    "letter": "I",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "int4-int8",
+    "term": "INT4/INT8",
+    "termZh": "INT4/INT8",
+    "definition": "4位/8位整数量化格式，用于模型压缩和加速推理",
+    "relatedPage": null,
+    "letter": "I",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "kling",
+    "term": "Kling",
+    "termZh": "Kling",
+    "definition": "快手开发的AI视频生成模型，中国最强视频生成工具",
+    "relatedPage": null,
+    "letter": "K",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "kv-cache",
+    "term": "KV Cache",
+    "termZh": "KV Cache",
+    "definition": "存储注意力计算中Key和Value的技术，用于加速推理",
+    "relatedPage": null,
+    "letter": "K",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "llama",
+    "term": "LLaMA",
+    "termZh": "LLaMA",
+    "definition": "Meta的开源大语言模型系列",
+    "relatedPage": null,
+    "letter": "L",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "llm",
+    "term": "LLM",
+    "termZh": "大语言模型",
+    "definition": "大语言模型",
+    "relatedPage": null,
+    "letter": "L",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "lm-studio",
+    "term": "LM Studio",
+    "termZh": "LM Studio",
+    "definition": "本地运行LLM的GUI工具",
+    "relatedPage": null,
+    "letter": "L",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "lmarena",
+    "term": "LMArena",
+    "termZh": "大模型竞技场",
+    "definition": "大模型竞技场，用户投票评估模型能力的平台",
+    "relatedPage": null,
+    "letter": "Other",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "lora",
+    "term": "LoRA",
+    "termZh": "低秩适配",
+    "definition": "低秩适配，高效微调方法，只训练少量参数",
+    "relatedPage": null,
+    "letter": "L",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "lunar-lake",
+    "term": "Lunar Lake",
+    "termZh": "Lunar Lake",
+    "definition": "Intel的移动端处理器，内置NPU用于AI推理",
+    "relatedPage": null,
+    "letter": "L",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "mcp",
+    "term": "MCP",
+    "termZh": "Model Context Protocol",
+    "definition": "Anthropic提出的AI工具连接标准协议",
+    "relatedPage": "/concepts/mcp",
+    "letter": "M",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "memory",
+    "term": "Memory",
+    "termZh": "记忆",
+    "definition": "Agent保持上下文和学习的能力，包括短期、长期、工作、情景、语义记忆",
+    "relatedPage": "/concepts/extended-concepts#memory",
+    "letter": "M",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "midjourney",
+    "term": "Midjourney",
+    "termZh": "Midjourney",
+    "definition": "AI图像生成工具，以艺术风格著称",
+    "relatedPage": null,
+    "letter": "M",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "mixture-of-experts",
+    "term": "Mixture of Experts (MoE)",
+    "termZh": "混合专家",
+    "definition": "混合专家架构，总参数大但每次只激活部分参数",
+    "relatedPage": null,
+    "letter": "M",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "mmlu",
+    "term": "MMLU",
+    "termZh": "大规模多任务语言理解",
+    "definition": "大规模多任务语言理解基准测试",
+    "relatedPage": null,
+    "letter": "M",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "model-router",
+    "term": "Model Router",
+    "termZh": "模型路由器",
+    "definition": "根据任务自动选择最合适的模型的系统",
+    "relatedPage": null,
+    "letter": "M",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "moonshot-ai",
+    "term": "Moonshot AI",
+    "termZh": "月之暗面",
+    "definition": "中国AI公司，Kimi智能助手开发商，以超长上下文著称",
+    "relatedPage": null,
+    "letter": "M",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "multi-agent",
+    "term": "Multi-Agent",
+    "termZh": "多智能体",
+    "definition": "多个Agent协作完成任务的模式",
+    "relatedPage": null,
+    "letter": "M",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "multi-modal",
+    "term": "Multimodal",
+    "termZh": "多模态",
+    "definition": "能处理多种类型信息（文本、图像、音频、视频）的AI",
+    "relatedPage": "/concepts/multi-modal",
+    "letter": "M",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "neural-network",
+    "term": "Neural Network",
+    "termZh": "神经网络",
+    "definition": "受生物神经元启发的计算模型",
+    "relatedPage": null,
+    "letter": "N",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "nvlink",
+    "term": "NVLink",
+    "termZh": "NVLink",
+    "definition": "NVIDIA的GPU高速互联技术",
+    "relatedPage": null,
+    "letter": "N",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "nvidia",
+    "term": "NVIDIA",
+    "termZh": "NVIDIA",
+    "definition": "全球最大的AI芯片公司",
+    "relatedPage": null,
+    "letter": "N",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "ollama",
+    "term": "Ollama",
+    "termZh": "Ollama",
+    "definition": "本地运行LLM的工具，类似Docker的体验",
+    "relatedPage": null,
+    "letter": "N",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "parameter",
+    "term": "Parameter",
+    "termZh": "参数",
+    "definition": "模型中可学习的权重值",
+    "relatedPage": null,
+    "letter": "P",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "ppo",
+    "term": "PPO",
+    "termZh": "近端策略优化",
+    "definition": "近端策略优化，RLHF中使用的强化学习算法",
+    "relatedPage": null,
+    "letter": "P",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "pre-training",
+    "term": "Pre-training",
+    "termZh": "预训练",
+    "definition": "在大规模数据上训练基础模型的过程",
+    "relatedPage": null,
+    "letter": "P",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "prompt",
+    "term": "Prompt",
+    "termZh": "提示",
+    "definition": "输入给AI模型的文本",
+    "relatedPage": null,
+    "letter": "P",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "prompt-engineering",
+    "term": "Prompt Engineering",
+    "termZh": "提示工程",
+    "definition": "设计和优化提示词的技术",
+    "relatedPage": "/concepts/prompt-engineering",
+    "letter": "P",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "qwen",
+    "term": "Qwen",
+    "termZh": "通义千问",
+    "definition": "阿里巴巴开发的大语言模型系列，中文能力出色",
+    "relatedPage": null,
+    "letter": "Q",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "qlora",
+    "term": "QLoRA",
+    "termZh": "QLoRA",
+    "definition": "量化+LoRA的组合，进一步降低微调资源需求",
+    "relatedPage": null,
+    "letter": "Q",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "quantization",
+    "term": "Quantization",
+    "termZh": "量化",
+    "definition": "将模型参数从高精度转为低精度的技术",
+    "relatedPage": null,
+    "letter": "Q",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "rag",
+    "term": "RAG",
+    "termZh": "检索增强生成",
+    "definition": "检索增强生成，让AI基于检索到的信息回答问题",
+    "relatedPage": "/concepts/rag",
+    "letter": "R",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "reasoning",
+    "term": "Reasoning",
+    "termZh": "推理",
+    "definition": "AI进行深度思考和逻辑推理的能力",
+    "relatedPage": "/concepts/reasoning",
+    "letter": "R",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "reinforcement-learning",
+    "term": "Reinforcement Learning",
+    "termZh": "强化学习",
+    "definition": "通过奖励信号训练AI的方法",
+    "relatedPage": null,
+    "letter": "R",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "reranking",
+    "term": "Reranking",
+    "termZh": "重排序",
+    "definition": "对初步检索结果重新排序，提高相关性的技术",
+    "relatedPage": null,
+    "letter": "R",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "rlhf",
+    "term": "RLHF",
+    "termZh": "人类反馈强化学习",
+    "definition": "人类反馈强化学习",
+    "relatedPage": null,
+    "letter": "R",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "runway",
+    "term": "Runway",
+    "termZh": "Runway",
+    "definition": "AI视频生成工具，商业化最早的视频生成平台",
+    "relatedPage": null,
+    "letter": "R",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "scaling-law",
+    "term": "Scaling Law",
+    "termZh": "缩放定律",
+    "definition": "模型性能与规模的幂律关系",
+    "relatedPage": null,
+    "letter": "S",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "sft",
+    "term": "SFT",
+    "termZh": "监督微调",
+    "definition": "监督微调",
+    "relatedPage": null,
+    "letter": "S",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "skill",
+    "term": "Skill",
+    "termZh": "技能",
+    "definition": "Agent的可复用能力单元，封装了完成特定任务所需的指令、工具和知识",
+    "relatedPage": "/concepts/extended-concepts#skill",
+    "letter": "S",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "softmax",
+    "term": "softmax",
+    "termZh": "softmax",
+    "definition": "将数值转换为概率分布的函数",
+    "relatedPage": null,
+    "letter": "S",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "sora",
+    "term": "Sora",
+    "termZh": "Sora",
+    "definition": "OpenAI的AI视频生成模型",
+    "relatedPage": null,
+    "letter": "S",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "sse",
+    "term": "SSE",
+    "termZh": "服务器推送事件",
+    "definition": "服务器推送事件，MCP使用的传输方式",
+    "relatedPage": null,
+    "letter": "S",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "stable-diffusion",
+    "term": "Stable Diffusion",
+    "termZh": "Stable Diffusion",
+    "definition": "Stability AI的开源图像生成模型",
+    "relatedPage": null,
+    "letter": "S",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "streaming",
+    "term": "Streaming",
+    "termZh": "流式输出",
+    "definition": "逐token返回结果，而非等待完整响应的技术",
+    "relatedPage": null,
+    "letter": "S",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "structured-output",
+    "term": "Structured Output",
+    "termZh": "结构化输出",
+    "definition": "让模型输出特定格式（如JSON）的技术",
+    "relatedPage": null,
+    "letter": "S",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "swe-bench",
+    "term": "SWE-bench",
+    "termZh": "SWE-bench",
+    "definition": "评估AI编程能力的基准测试，基于真实GitHub issue",
+    "relatedPage": null,
+    "letter": "Other",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "synthetic-data",
+    "term": "Synthetic Data",
+    "termZh": "合成数据",
+    "definition": "用AI生成的训练数据",
+    "relatedPage": null,
+    "letter": "S",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "test-time-compute",
+    "term": "Test-Time Compute",
+    "termZh": "测试时计算",
+    "definition": "在推理时使用更多计算资源来提升答案质量的技术",
+    "relatedPage": null,
+    "letter": "T",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "token",
+    "term": "Token",
+    "termZh": "Token",
+    "definition": "文本处理的基本单位，可以是一个字、词或子词",
+    "relatedPage": null,
+    "letter": "T",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "token-s",
+    "term": "Token/s",
+    "termZh": "Token/s",
+    "definition": "每秒处理的token数，衡量推理速度",
+    "relatedPage": null,
+    "letter": "T",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "tool",
+    "term": "Tool",
+    "termZh": "工具",
+    "definition": "Agent可以调用的外部功能，是Agent与外界交互的基本单元",
+    "relatedPage": "/concepts/extended-concepts#tool",
+    "letter": "T",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "tpu",
+    "term": "TPU",
+    "termZh": "张量处理单元",
+    "definition": "Google的AI专用芯片",
+    "relatedPage": null,
+    "letter": "T",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "transformer",
+    "term": "Transformer",
+    "termZh": "Transformer",
+    "definition": "2017年Google提出的架构，现代AI大模型的基础",
+    "relatedPage": null,
+    "letter": "T",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "ttft",
+    "term": "TTFT",
+    "termZh": "首token延迟",
+    "definition": "首个token的生成延迟",
+    "relatedPage": null,
+    "letter": "T",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "vector-database",
+    "term": "Vector Database",
+    "termZh": "向量数据库",
+    "definition": "专门存储和检索向量的数据库",
+    "relatedPage": null,
+    "letter": "V",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "veo",
+    "term": "Veo",
+    "termZh": "Veo",
+    "definition": "Google的AI视频生成模型",
+    "relatedPage": null,
+    "letter": "V",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "vibe-coding",
+    "term": "Vibe Coding",
+    "termZh": "氛围编程",
+    "definition": "用自然语言描述需求，让AI生成代码的编程方式",
+    "relatedPage": null,
+    "letter": "V",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "vllm",
+    "term": "vLLM",
+    "termZh": "vLLM",
+    "definition": "最流行的LLM推理引擎",
+    "relatedPage": null,
+    "letter": "V",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "weights",
+    "term": "Weights",
+    "termZh": "权重",
+    "definition": "模型的参数值",
+    "relatedPage": null,
+    "letter": "W",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "windsurf",
+    "term": "Windsurf",
+    "termZh": "Windsurf",
+    "definition": "Codeium开发的AI IDE，以Cascade智能体著称",
+    "relatedPage": null,
+    "letter": "W",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "workflow",
+    "term": "Workflow",
+    "termZh": "工作流",
+    "definition": "多个步骤组成的Agent执行流程，实现复杂的多步骤任务",
+    "relatedPage": "/concepts/extended-concepts#workflow",
+    "letter": "W",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "world-model",
+    "term": "World Model",
+    "termZh": "世界模型",
+    "definition": "理解物理世界规律的AI模型",
+    "relatedPage": null,
+    "letter": "W",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "gpqa",
+    "term": "GPQA",
+    "termZh": "研究生级别问答基准",
+    "definition": "研究生级别问答基准，用于评估AI科学推理能力",
+    "relatedPage": null,
+    "letter": "Other",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "chunking",
+    "term": "Chunking",
+    "termZh": "分块",
+    "definition": "将长文档切分为小块，便于嵌入和检索",
+    "relatedPage": null,
+    "letter": "C",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "context-engineering",
+    "term": "Context Engineering",
+    "termZh": "上下文工程",
+    "definition": "设计和优化AI上下文的系统方法",
+    "relatedPage": null,
+    "letter": "C",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "guardrails",
+    "term": "Guardrails",
+    "termZh": "护栏",
+    "definition": "限制AI行为的安全机制",
+    "relatedPage": null,
+    "letter": "G",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "grounding",
+    "term": "Grounding",
+    "termZh": "事实锚定",
+    "definition": "将AI输出与真实数据源关联",
+    "relatedPage": null,
+    "letter": "G",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "temperature",
+    "term": "Temperature",
+    "termZh": "温度",
+    "definition": "控制模型输出随机性的参数",
+    "relatedPage": null,
+    "letter": "T",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "top-p",
+    "term": "Top-P",
+    "termZh": "核采样",
+    "definition": "另一种控制输出多样性的方式，只从累积概率达到P的token中采样",
+    "relatedPage": null,
+    "letter": "T",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "system-prompt",
+    "term": "System Prompt",
+    "termZh": "系统提示",
+    "definition": "定义模型行为和角色的提示词",
+    "relatedPage": null,
+    "letter": "S",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "query-transformation",
+    "term": "Query Transformation",
+    "termZh": "查询转换",
+    "definition": "优化用户查询以提高检索质量的技术",
+    "relatedPage": null,
+    "letter": "Q",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "speculative-decoding",
+    "term": "Speculative Decoding",
+    "termZh": "推测解码",
+    "definition": "用小模型快速生成草稿，大模型验证的推理加速技术",
+    "relatedPage": null,
+    "letter": "S",
+    "lastUpdated": "2026-06-27"
+  },
+  {
+    "id": "ai-gateway",
+    "term": "AI Gateway",
+    "termZh": "AI网关",
+    "definition": "集中管理AI访问的中间层，提供统一API接口、负载均衡、成本控制等功能",
+    "relatedPage": null,
+    "letter": "A",
+    "lastUpdated": "2026-06-27"
+  }
+]

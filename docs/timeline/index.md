@@ -2,6 +2,26 @@
 
 从2022年11月ChatGPT发布到2026年，AI领域经历了前所未有的爆发式发展。以下是最关键的里程碑事件。
 
+<script setup>
+import timelineData from '../data/timeline.json'
+
+const highSignificance = timelineData.filter(e => e.significance === 'high')
+const years = {}
+timelineData.forEach(e => {
+  const y = e.date.substring(0, 4)
+  if (!years[y]) years[y] = []
+  years[y].push(e)
+})
+</script>
+
+---
+
+## 里程碑事件总览
+
+> 📊 数据驱动 · 共收录 **{{ timelineData.length }}** 个事件 · 其中 **{{ highSignificance.length }}** 个高影响力事件
+
+<Timeline :items="highSignificance" />
+
 ---
 
 ## 2022：ChatGPT改变一切
@@ -333,5 +353,7 @@
 7. **芯片成为战略资源**：NVIDIA GPU成为AI发展的关键瓶颈
 
 ---
+
+<DataSource lastUpdated="2026-06-27" source="https://github.com/Angus210801/ai-knowledge-base" />
 
 > 💡 **下一步**：了解[主流大模型的详细对比](/models/)，或深入学习[AI核心概念](/concepts/)

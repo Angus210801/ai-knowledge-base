@@ -28,10 +28,13 @@
     <div v-if="$slots.default" style="margin-top: 16px;">
       <slot />
     </div>
+    <DataSource v-if="lastUpdated" :lastUpdated="lastUpdated" :source="source" />
   </div>
 </template>
 
 <script setup>
+import DataSource from './DataSource.vue'
+
 defineProps({
   name: { type: String, required: true },
   description: { type: String, default: '' },
@@ -40,6 +43,8 @@ defineProps({
   params: { type: String, default: '' },
   releaseDate: { type: String, default: '' },
   company: { type: String, default: '' },
-  contextWindow: { type: String, default: '' }
+  contextWindow: { type: String, default: '' },
+  lastUpdated: { type: String, default: '' },
+  source: { type: String, default: '' }
 })
 </script>

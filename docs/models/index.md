@@ -2,30 +2,45 @@
 
 截至2026年6月，全球已有数百个大语言模型。以下是最主流的模型对比。
 
+<script setup>
+import models from '../data/models.json'
+
+const topModels = models.filter(m => 
+  ['gpt-5', 'claude-4-opus', 'gemini-2-5-pro', 'llama-4-scout', 'deepseek-r1', 'mistral-large', 'qwen3', 'grok-3'].includes(m.id)
+)
+
+const compareColumns = [
+  { key: 'name', label: '模型' },
+  { key: 'company', label: '公司' },
+  { key: 'releaseDate', label: '最新版本' },
+  { key: 'contextWindow', label: '上下文' },
+  { key: 'openSource', label: '开源' },
+  { key: 'multimodal', label: '多模态' }
+]
+
+const compareData = topModels.map(m => ({
+  name: m.name,
+  company: m.company,
+  releaseDate: m.releaseDate,
+  contextWindow: m.contextWindow || '—',
+  openSource: m.openSource,
+  multimodal: m.multimodal
+}))
+
+const totalCount = models.length
+const openSourceCount = models.filter(m => m.openSource).length
+const companyCount = [...new Set(models.map(m => m.company))].length
+</script>
+
 ---
 
 ## 主流模型快速对比
 
+> 📊 数据驱动 · 共收录 **{{ totalCount }}** 个模型 · **{{ openSourceCount }}** 个开源 · 覆盖 **{{ companyCount }}** 家公司
+
 <CompareTable 
-  :columns="[
-    { key: 'name', label: '模型' },
-    { key: 'company', label: '公司' },
-    { key: 'release', label: '最新版本' },
-    { key: 'context', label: '上下文' },
-    { key: 'openSource', label: '开源' },
-    { key: 'multimodal', label: '多模态' },
-    { key: 'highlight', label: '核心亮点' }
-  ]"
-  :data="[
-    { name: 'GPT-5', company: 'OpenAI', release: '2025', context: '256K', openSource: false, multimodal: true, highlight: '综合能力最强' },
-    { name: 'Claude 4 Opus', company: 'Anthropic', release: '2025.05', context: '200K', openSource: false, multimodal: true, highlight: '编程与Agent最强' },
-    { name: 'Gemini 2.5 Pro', company: 'Google', release: '2025.03', context: '2M', openSource: false, multimodal: true, highlight: '超长上下文，推理强' },
-    { name: 'LLaMA 4 Scout', company: 'Meta', release: '2025.04', context: '10M', openSource: true, multimodal: true, highlight: '开源最强，超长上下文' },
-    { name: 'DeepSeek-R1', company: 'DeepSeek', release: '2025.01', context: '128K', openSource: true, multimodal: false, highlight: '开源推理模型标杆' },
-    { name: 'Mistral Large', company: 'Mistral AI', release: '2024', context: '128K', openSource: false, multimodal: true, highlight: '欧洲最强模型' },
-    { name: 'Qwen3', company: '阿里巴巴', release: '2025', context: '128K', openSource: true, multimodal: true, highlight: '中文能力出色' },
-    { name: 'Grok-3', company: 'xAI', release: '2025', context: '128K', openSource: false, multimodal: true, highlight: 'X平台整合' }
-  ]"
+  :columns="compareColumns"
+  :data="compareData"
 />
 
 ---
